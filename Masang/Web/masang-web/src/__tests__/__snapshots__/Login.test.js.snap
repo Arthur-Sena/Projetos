@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Component [LOGINSCREEN] deve executar a class e ciclos de vida sem crashar 1`] = `ReactWrapper {}`;
+
+exports[`Login Component [LOGINSCREEN] deve executar o componente pai sem crashar 1`] = `ShallowWrapper {}`;
+
+exports[`Login Component [LOGINSCREEN] deve injetar corretamente um elemento 1`] = `<input />`;

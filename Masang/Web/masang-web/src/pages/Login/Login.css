@@ -1,0 +1,99 @@
+.App {
+    position:absolute;
+    background-image: url('../../assets/backgroundlogin1.png');
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.Login {
+    Color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h1Login {
+    text-decoration: underline;
+    text-decoration-color:  #f28123;
+    font-weight: lighter;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* inputs */
+.item {
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    background-color:rgba(f,f,f,f.2);
+    border-bottom-color: white;
+    border-bottom-style: ridge;
+    width: 40vw;
+}
+
+.input__login{
+    height:2em;
+    border: none;
+    background-color:rgba(0,0,0,0.01);
+    color: white;
+    font-size: large;
+    outline:none;
+    transition: border ease 2s;
+}
+
+.input__login:focus {
+    border-bottom:solid 1px greenyellow
+}
+
+/* Botao */
+.btn {
+    height: 5vh;
+    width: 9vw;
+    background-color: #f28123;
+    color: white;
+    border-radius: 15px;
+    font-size: medium;
+    border-color: white;
+    border-width: 1px;
+    outline:none;
+}
+
+/* Css da Logo */
+.Masang {
+    /* margin-bottom: -1vh; */
+    /* height:15vh; */
+    margin-top: 13.5vh;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+@media (max-width:1017px){
+    .item {
+        width: 70vw;
+    }
+    .btn {
+        width: 20vw;
+    }
+}
+@media (max-width:700px){
+    .btn {
+        width: 25vw;
+    }
+
+    .Masang {
+        justify-content: center;
+    }
+}

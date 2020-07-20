@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map componente/class [MAPSCREEN] deve executar a class e ciclos de vida sem crashar 1`] = `ReactWrapper {}`;
+
+exports[`Map componente/class [MAPSCREEN] deve injetar corretamente um elemento 1`] = `<input />`;
+
+exports[`Map componente/class [MAPSCREEN] deve realizar um snapshot com sucesso 1`] = `ShallowWrapper {}`;

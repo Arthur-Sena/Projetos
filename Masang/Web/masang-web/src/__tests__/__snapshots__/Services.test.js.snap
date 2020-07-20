@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Services component [SERVICESSCREEN] deve executar a class e ciclos de vida sem crashar 1`] = `ReactWrapper {}`;
+
+exports[`Services component [SERVICESSCREEN] deve executar o componente pai sem crashar 1`] = `ShallowWrapper {}`;
+
+exports[`Services component [SERVICESSCREEN] deve injetar corretamente um elemento 1`] = `<input />`;

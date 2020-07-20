@@ -1,0 +1,161 @@
+:root {
+    --background: #f2f2f2;
+    --laranja-claro: #f28123;
+    --vermelho: #B90404;
+    --text-color: #868686;
+  }
+.Services {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: var(--background);
+    min-height: 100vh;
+    
+}
+/* CSS header da pagina */
+.divTitle {
+    margin-top: 2vh;
+}
+
+.H1Services {
+    color: var(--vermelho);
+    /* font-weight: bold; */
+    font-family: Helvetica;
+}
+
+.linhaGradiente {
+    margin-top: -2vh;
+    height: 1vh;
+    background-image: linear-gradient(to right, var(--vermelho) , var(--laranja-claro));
+}
+
+.subTitle {
+    margin-top: 2vh;
+    width: 80vw;
+    align-items: center;
+}
+
+.text {
+    color: var(--text-color);
+}
+
+/* main */
+.divMain {
+    margin-top: 1.2em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 80vw;
+    height: 14vh;
+    background-image: linear-gradient(to right , var(--laranja-claro), var(--vermelho));
+}
+
+.subDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* Cards de Solucoes */
+.divCards {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+
+    flex-wrap: wrap-reverse;
+
+    margin-top: 2.8em;
+    width: 80vw;
+}
+
+.card {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 15.5em;
+    /* width: 12em; */
+    /* margin-bottom: 2em; */
+}
+
+.miniCard {
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.miniCard h4{
+    color: var(--laranja-claro);
+    font-weight: 400;
+}
+
+.miniCard p{
+    font-size: 15px;
+    width:  90%;
+    text-align: center;
+
+}
+
+.inCard{
+    height: 15vh;
+    margin-top: 5vh;
+}
+
+@media (max-width:1219px){
+    .card {
+        width: 25em;
+        margin-bottom: 2em;
+
+    }
+}
+@media (max-width:1017px){
+    .card {
+        width: 20em;
+    }
+}
+@media (max-width:814px){
+    .card {
+        width: 16em;
+    }
+}
+@media (max-width:650px){
+    .card{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80vw;
+    }
+
+    .card img{
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .divMain{
+        height: 16vh;
+    }
+
+    .divMain{
+        height: 24vh;
+    }
+}
+@media (max-width:360px){
+    .divMain {
+        width: 85vw;
+        height: 26vh;
+    }
+}

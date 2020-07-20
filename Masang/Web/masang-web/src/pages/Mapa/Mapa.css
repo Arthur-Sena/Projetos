@@ -1,0 +1,119 @@
+:root {
+    --background: #f2f2f2;
+    --laranja-claro: #f28123;
+    --vermelho: #B90404;
+    --text-color: #868686;
+  }
+
+ /* Div Pai  */
+.Mapa{
+    max-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: var(--background);
+}
+
+/* Barra de Rolamento */
+.DivMapa::-webkit-scrollbar{
+    width: 8px;
+}
+/* 
+.DivMapa::-webkit-scrollbar-button{
+    background-color: green;
+} */
+
+.DivMapa::-webkit-scrollbar-thumb         
+{
+    background-color: rgba(136,136,136,0.4);
+}
+/* --------------------- */
+/* Div da busca de hemocentro */
+.divHemocentro{
+    height: 100vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 20;
+}
+
+.buscarHemocentro{
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+}
+/* Input de busca */
+.inputFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputBuscar{
+    margin-left:3px;
+    margin-top: 1.15em;
+    height: 2em;
+    width: 20vw;
+    outline: none;
+    border: none;
+    background-color:rgba(0,0,0,0);
+    font-size: larger;
+    font-weight: bolder;
+
+    color: var(--text-color);
+}
+
+.inputBottom{
+    height: 1vh;
+    width: 22vw;
+    margin-left: 10px;
+    background-image: linear-gradient(to right , var(--laranja-claro), var(--vermelho));
+
+}
+
+/* Lista de Busca */
+.infoHemocentro{
+    margin-left: 1vw;
+    color: var(--text-color);
+    margin-right: 10px;
+
+}
+
+.bottomBorder{
+    height: 3px;
+    width: 19vw;
+    background-image: linear-gradient(to right , var(--laranja-claro), var(--vermelho));
+    /* margin-right: 2.5vw; */
+    margin-right: 15%;
+    /* margin-bottom: 2px; */
+}
+
+.DivMapa{
+    direction: rtl;
+    text-align: left;
+
+    overflow: auto;
+    margin-left: 10px;
+    
+    background-color: var(--background);
+    /* background-color: var(--background); */
+}
+
+.DivMapa > p{
+    margin-left: 8px;
+}
+
+.logoHome{
+    display:flex;
+    justify-content: space-around;
+    margin-top: auto;
+}
+
+/* Div do mapa */
+.boxMap {
+    width: 75vw;
+    position: relative;
+    /* margin-left: -2vw; */
+}

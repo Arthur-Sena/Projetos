@@ -1,0 +1,23 @@
+# TESTES POR TELAS [ref 08.07]
+
+## Definir ordem correta de testes 
+- Componentes mais simples (inputs, buttons) 
+- Componentes compartilhados(navBar)
+- Componentes mais complexos 
+
+## TODO
+- deve certificar restrição ao acessar sem login
+
+
+
+
+
+//COVERAGE
+npm test -- --coverage
+
+
+//FINDWHERE
+node são os componentes como <input /> ou <h1 />, teste:
+console.log(component.findWhere((node) => true).map(n => n.name()))
+
+ou:  component.findWhere((node) => (node.prop('name') === 'email'))

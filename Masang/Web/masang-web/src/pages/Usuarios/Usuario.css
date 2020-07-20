@@ -1,0 +1,89 @@
+.divUser {
+    background-color: var(--background);
+    height: 105vh;
+}
+
+.divTable {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.userTable {
+    width: 80vw;
+    text-align: center;
+    border-color: var(--vermelho);
+    border-style: solid;
+
+    background-color: white;
+
+}
+
+.inputTable {
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+}
+
+.thead{
+    background-image: linear-gradient(180deg, var(--laranja-claro), var(--vermelho));
+}
+
+.tbody{
+    color: var(--text-grey);
+}
+.tr{
+    height: 5vh;
+}
+.th{
+    height: 6vh;
+}
+
+/* --------------------------------------------------------------------------- */
+.divOneUser{
+    height: 101vh;
+    background-color: var(--background);
+    
+}
+
+.infoUser{
+    background-color: white;
+    
+    margin-left: 15vw;
+    margin-top: 1vh;
+
+    width: 65vw;
+    height: 65vh;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 3vw;
+
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.imgUser{
+    height:65vh;
+    width:20vw;
+    border-radius: 20px;
+    overflow: hidden;
+    border-color: #b90404;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.dadosUser{
+    padding-left: 6vw;
+    padding-top: 3vh;
+    color: var(--laranja-claro);
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+

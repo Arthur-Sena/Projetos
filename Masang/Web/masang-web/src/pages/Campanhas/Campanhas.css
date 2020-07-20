@@ -1,0 +1,86 @@
+.DivCampanha{
+    background-color: #f2f2f2;
+    min-height: 102.75vh;
+}
+
+.divListaCampanha{
+    display: flex;
+    justify-content: center;
+}
+
+.listaCampanha{
+    display: flex;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    background-color: #f2f2f2;
+
+    margin-bottom: 3vh;
+
+    padding-top: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    width: 80vw;
+}
+
+.cardCampanha{
+    
+    background-color: white;
+    border-color: var(--vermelho);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    
+    width: 38vw;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 5vh;
+    
+    overflow:hidden;
+}
+
+.btnDel{
+    height: 45px;
+    width:45px;
+    border: none;
+    outline:none;
+    margin-top: 5px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.btnCampanha {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 3vw;
+}
+
+.labelCampanha{
+    font-size: larger;
+    color: var(--laranja-claro);
+    font-weight: bold;
+    margin-top: 8vh;
+    margin-left: 1.8vw;
+
+}
+
+.divCadastroCampanha{
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    background-color:rgba(f,f,f,f.2);
+    margin-left: 8vw;
+    width: 80vw;
+}

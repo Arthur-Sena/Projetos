@@ -1,0 +1,139 @@
+:root {
+    --background: #f2f2f2;
+    --laranja-claro: #f28123;
+    --vermelho: #B90404;
+    --text-color: #868686;
+  }
+
+.Dashboard {
+    background-color: var(--background);
+    height: 100vh;
+}
+
+/* -------Div do Grafico------- */
+.tituloGrafico{
+    background-image: linear-gradient(180deg, var(--laranja-claro), var(--vermelho));
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 7vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--vermelho);
+}
+
+.h3titulo{
+    text-align: center;
+    color: white;
+}
+
+.divGrafico{
+    margin-top: 10vh;
+}
+
+.grafico{
+    background-color: white;
+    margin-left: 5vw;
+    height: 73vh;
+    width:47vw;
+    border-color: var(--vermelho);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* position: absolute;
+    margin-top: -52vh; */
+}
+
+.Dashboard{
+    display:flex;
+    flex-direction: row;
+}
+
+.listaDash{
+    margin-left: 2vw;
+}
+
+.divsQnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.userTitle{
+    background-image: linear-gradient(180deg, var(--laranja-claro), var(--vermelho));
+    width: 19.5vw;
+    height: 7vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--vermelho);
+}
+
+.numero{
+    background-color: white;
+    color: var(--text-color);
+    width: 19.5vw;
+    height: 7vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--vermelho);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.listaDoacoes{
+    margin-top: 5vh;
+    display:flex;
+    flex-direction: column;
+}
+.ultimasDoacoes{
+    height: 52.5vh;
+    margin-top: 0.5vh;
+    direction: rtl;
+    text-align: left;
+    overflow: auto;
+    margin-left: 10px;
+    padding-right: 8px;
+}
+.infoDoacao{
+    margin-left: 10px;
+}
+
+/* Barra de Rolamento */
+.ultimasDoacoes::-webkit-scrollbar{
+    width: 8px;
+}
+.ultimasDoacoes::-webkit-scrollbar-thumb         
+{
+    background-color: rgba(136,136,136,0.4);
+}
+.bottomList{
+    height: 3px;
+    width: 30vw;
+    background-image: linear-gradient(to right , var(--laranja-claro), var(--vermelho));
+    margin-right: 5vw;
+}
+
+.testandoDiv{
+    height: 54vh;
+    width:40vw;
+    background-color: white;
+    border-color: var(--vermelho);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
