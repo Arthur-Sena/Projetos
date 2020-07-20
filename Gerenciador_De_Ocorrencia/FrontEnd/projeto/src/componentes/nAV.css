@@ -1,0 +1,16 @@
+/* estilização do menu de navegaçã0 */
+.centro{
+    display: flex;
+    justify-content: center;
+    margin-left: 330px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+/* estilização do botao de saida  */
+.sair{
+    margin-left: 290px;
+    background-color: black;
+    color:white;
+}

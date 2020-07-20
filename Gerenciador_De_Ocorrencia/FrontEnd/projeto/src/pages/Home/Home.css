@@ -1,0 +1,15 @@
+.DivBanner{
+    height: 520px;
+}
+
+@media (max-width:784px){
+    .DivBanner{
+        height: 480px;
+    }
+}
+
+@media (max-width:504px){
+    .DivBanner{
+        height: 380px;
+    }
+}

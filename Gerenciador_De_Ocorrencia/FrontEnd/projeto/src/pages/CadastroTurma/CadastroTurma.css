@@ -1,0 +1,30 @@
+.item {
+    background-color:rgb(218, 214, 214);
+}
+
+.Titulo{
+    font-size: 15px;
+
+}
+
+.item1{
+    background-color:whitesmoke;
+    color: #005BA8;
+    border-color:black;
+    height: 15%;
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 20px;
+    BORDER-COLOR: #FFFFFF;
+}
+
+button{
+    background-color:whitesmoke;
+    color:whitesmoke;
+    border-color:black;
+    height: 10%;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 1px;
+}
+

@@ -1,0 +1,65 @@
+h1{
+    font-size: 75px;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color:black;
+color:white;
+}
+
+.tudo{
+    display: flex;
+}
+
+.rc{
+    font-size: 18px;
+    margin-left: 125px;
+    color: black;
+
+} 
+
+.dev{
+    font-size: 18px;
+    margin-left: 110px;
+    color: black;
+} 
+
+.mult{
+    font-size: 18px;
+    margin-left: 190px;
+    color: black;
+
+} 
+
+.code{
+
+    font-size: 18px;
+    margin-left: 220px;
+    color: black;
+
+}
+
+.ft1{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+
+
+.ft2{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+
+
+.ft3{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+
+
+
+.ft4{
+    margin-left: 150px;
+    margin-top: 60px;
+}

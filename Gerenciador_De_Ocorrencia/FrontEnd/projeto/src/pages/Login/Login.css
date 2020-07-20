@@ -1,0 +1,75 @@
+.App {
+    max-height: 100vh;
+    max-width: 130vh;
+    overflow: hidden;
+}
+
+.AppPrincipal{
+    max-height: 100vh;
+    max-width: 130vh;
+}
+
+.Login {
+    -webkit-transform: skew(35deg); 
+      -ms-transform: skew(35deg);
+          transform: skew(35deg); 
+    /* z-index: 2; */
+    background-color: white;
+    margin-left: -30%;
+    min-width: 64%;
+}
+
+.img{
+    -webkit-transform: skew(-35deg); 
+      -ms-transform: skew(-35deg); 
+          transform: skew(-35deg); 
+    margin-left: 16%;
+    height: 20%;
+    margin-top: 20px;
+}
+
+.DivLogin {
+    /*------ inicio posicao ------ */
+    background-color: white;
+    position: relative;
+    top: -550px;
+    height: 100%;
+    width: 67%;
+    margin-left: 55%;
+    margin-top: 5%;
+    /* ------ Fim posicao ------ */
+    border-color: black;
+    border-style: solid;
+    border-width: 1.5px;
+
+}
+
+.btnn {
+    background-color: #005BA8;
+    color: white;
+    border-color: #005BA8;
+    height: 15%;
+    width: 25%;
+    position: absolute;
+    margin-left: 36%;
+    font-size: x-large;
+    margin-top: -20px;
+}
+
+.form {
+    width: 80%;
+}
+
+.form input{
+    width: 90%;
+    margin-left: 15%;
+    height: 35px;
+    /* box-shadow: 0 0 0 0; */
+    border-top: 0 none;
+    border-left: 0 none;
+    border-right: 0 none;
+    /* border-bottom: 10px; */
+    /* outline: 0; */
+    border-color: grey;
+    font-size: xx-large;
+}

@@ -1,0 +1,32 @@
+.Tabela {
+    margin-left: 5%;
+    width: 90%;
+}
+
+h1{
+    text-align: center;
+}
+
+.filtro{
+    margin-left: 485px;
+    border-top: 0 none;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-color: blue;
+    font-size: 15px;    
+    width: 30%;
+    margin-top: 10px;
+}
+
+
+Table {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .titulo{
+      font-size:17px;
+  }
+
+ 
+ 
