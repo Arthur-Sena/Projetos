@@ -1,0 +1,38 @@
+body {
+    /* height: 100%; */
+    background-image: url('../Home/img/netflix.jpg');
+}
+
+.divCadastro{
+    text-align:center;
+    height: 100%;
+    /* background-image: url('../Home/img/netflix.jpg'); */
+
+}
+
+form {
+    margin: 5px 0;
+    width: 100%;
+    background-color: #282c34;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    opacity : 0.9 ;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em; 
+}
+
+
+.divForm{
+    margin-top: 8em;
+    margin-left:  33%;
+    margin-right: 33%;
+    
+  
+  }
