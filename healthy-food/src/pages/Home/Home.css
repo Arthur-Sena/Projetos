@@ -8,6 +8,7 @@
 :root {
     --verde-claro: #c7e128;
     --text-color1: #5a5a5a;
+    --text-color2: #a5a5a5;
 }
 
 /* ========================= */
@@ -35,10 +36,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.Nav_Menu>a,
+.Nav_SubTitle>a{
+    text-decoration: none;
     color: white;
 }
 
-.Nav_SubTitle>p:last-child {
+nav a:hover {
+    color : var(--verde-claro);
+}
+
+.Nav_SubTitle>a:last-child {
     color: var(--verde-claro);
     background-color: white;
     padding: 8px 15px;
@@ -53,7 +63,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100vh;
+    max-height: 100vh;
+    padding-bottom: 10vh;
 }
 
 .DivForm_HeaderHome {
@@ -71,21 +82,22 @@
 .Form_HeaderHome{
     margin-top     : 5vh;
     padding-left   : 5vw;
-    width          : 100%;
+    width          : 55%;
     display        : flex;
     flex-direction : row;
     align-items    : center;
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
 }
 
 .Input_FormHeaderHome{
-    width        : 60%;
+    width        : 80%;
     height       : 6vh;
     border-radius: 5px;
     border-style : solid;
     border-width : 1px;
     outline      : none;
     padding-left : 10px;
+    margin-right: 8%;
 }
 
 .Btn_FormHeaderHome{
@@ -97,7 +109,7 @@
 }
 
 .illustration {
-    height: 90vh;
+    height: 90%;
 }
 /* ========================= */
 /* - - - - -BODY- - - - - - */
@@ -162,4 +174,330 @@
     border-style     : none;
     width            : 80%;
     height           : 5vh;
+}
+
+/* ============================= */
+/* - - - - -SERVICES- - - - - - */
+/* =========================== */
+.Services_BodyHome {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-between;
+    height          : 90%;
+    overflow: hidden;
+}
+
+.Services_BodyHome > img {
+    height: 100%;
+}
+
+.TextServices_BodyHome{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10% 0px 0px;
+    padding: 15px 0px;
+    justify-content: space-between;
+}
+.TextServices_BodyHome>h1{
+    color: var(--text-color1);
+}
+.TextServices_BodyHome>p{
+    color: var(--text-color2);
+}
+
+.Btn_ServicesBodyHome{
+    /* margin-top       : 4vh; */
+    background-color : var(--verde-claro);
+    border-radius    : 8px;
+    border-style     : none;
+    width            : 30%;
+    padding          : 15px 10px;
+    box-shadow       : 0px 3px 4px 2px rgba(90, 90, 90, 0.3);
+
+}
+
+.div_MostrarTexto{
+    overflow: hidden;
+    max-width: 85%;
+    padding: 15px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================= */
+/* - - - - -BLOG - -- - - - - - */
+/* =========================== */
+
+.Blog_CardsBodyHome{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    padding: 0px 7.5%;
+    /* overflow-x: scroll; */
+}
+
+.Card_BlogHome{
+    width: 40%;
+    min-height: 70%;
+    margin-right: 20px;
+    overflow: hidden;
+    background-color:white;
+    box-shadow      : 3px 3px 4px 2px rgba(90, 90, 90, 0.1);
+}
+
+.img_CardBlogHome{
+    width: 100%;
+}
+
+.Card_DescriptionBlog{
+    text-align: left;
+    padding: 10px 15px;
+    color: var(--text-color1);
+}
+
+.SubDiv_CardDescriptionBlog{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SubDiv_CardDescriptionBlog>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.SubDiv_CardDescriptionBlog{
+    color: var(--text-color2);
+
+}
+
+.FooterBody_Home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+/* ============================= */
+/* - - - - -FOOTER- - - - - - - */
+/* =========================== */
+
+.Footer{
+    display:flex;
+    flex-direction: row;
+    padding: 0px 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.Footer>div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+@media(max-width:1200px) {
+    
+    /* =====HEADER======= */
+    .Form_HeaderHome{
+        width:100%;
+    }
+    .Input_FormHeaderHome{
+        width        : 70%;
+    }
+    .illustration {
+        max-width: calc(100% - 350px);
+    }
+
+    /* =====SECTION1===== */
+    .Div_CardsBodyHome{
+        width: 100%;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .Card_BodyHome{
+        width           : 48%;
+    }
+}
+
+@media(max-width:900px) {
+    /* ======HEADER====== */
+    .DivForm_HeaderHome{
+        align-items    : flex-start;
+        padding-left: 5%;
+    }
+    .h1_FormHeaderHome{
+        font-size: 30px;
+    }
+    .Form_HeaderHome{
+        padding-left : 0px;
+        margin-top   : 10px;
+    }
+
+    .Nav_Title {
+        width: 45%;
+    }
+    
+    .Nav_SubTitle {
+        width: 55%;
+    }
+
+    /* ======SECTION2====== */
+    .TextServices_BodyHome{
+        margin: 0px;
+        width: 100%;
+    }
+    .Btn_ServicesBodyHome{
+        width: 90px;
+    }
+}
+
+@media(max-width:700px) {
+    /* ======HEADER====== */
+    .h1_FormHeaderHome{
+        font-size: 22px;
+    }
+
+    .DivForm_HeaderHome {
+        width    : 30%;
+    }
+    
+    .illustration {
+        max-width: 65%;
+    }
+    .Nav_Home {
+        width: 100vw;
+        padding: 0px 3%;
+    }
+    .Nav_Title {
+        width: 36%;
+    }
+    .Nav_SubTitle>a {
+        color: white;
+        width: 22%;
+    }
+
+    /* =====SECTION1======= */
+    .Div_CardsBodyHome{
+        width: 80%;
+        padding: 15px 10% 0px 10%;
+        flex-wrap:unset;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .Card_BodyHome{
+        width           : 100%;
+    }
+
+    /* ======SECTION2====== */
+    .TextServices_BodyHome{
+        width: 140%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media(max-width:650px) {
+    /* ======SECTION2====== */
+    .Services_BodyHome {
+        display         : flex;
+        flex-direction  : row;
+    }
+
+    .Services_BodyHome> img {
+        width: 60%;
+    }
+    .TextServices_BodyHome{
+        width: 80%;
+        justify-content: space-around;
+    }
+    .TextServices_BodyHome>h1{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:549px) {
+    .Nav_Home {
+        width: 95vw;
+        padding: 5px 2.5%;
+        justify-content: space-between;
+    }
+    
+    .Nav_Title {
+        max-height: 45px;
+        width: 50%;
+        margin-top: 0%;
+        align-self: flex-start;
+    }
+
+    .Nav_Menu{
+        display:flex;
+        flex-direction: column;
+        background-color: var(--verde-claro);
+        align-items: center;
+    }
+
+    .btn_Menu{
+        width:  150px;
+        height: 30px;
+        background-color: var(--verde-claro);
+        border: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: white;
+    }
+}   
+
+@media(max-width:420px) {
+    /* =====HEADER======= */
+    .Header_Home{
+        margin-top: 44px;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        padding-bottom: 3vh;
+    }
+    .illustration {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .DivForm_HeaderHome{
+        width: 90%;
+    }
+
+    .Form_HeaderHome{
+        width: 80%;
+    }
+
+    .h1_FormHeaderHome{
+        font-size: 32px;
+    }
+
+    .Input_FormHeaderHome{
+        width: 80%;
+    }
+
+    /* =====SECTION1======= */
+    .Div_CardsBodyHome{
+        width: 95%;
+        padding: 15px 2.5% 0px 2.5%;
+    }
+
+    .Card_Description{
+        padding-left  : 2.5%;
+        padding-right  : 2.5%;
+        max-width      : 45%;
+    }
 }
