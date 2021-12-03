@@ -1,0 +1,12 @@
+.Tela_Cadastro{
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.Div_Cadastro{
+    color: var(--verde-claro)
+}

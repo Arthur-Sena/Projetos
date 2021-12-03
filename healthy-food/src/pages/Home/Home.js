@@ -115,13 +115,14 @@ class Home extends Component {
                             <a href="">HEALTHY RECIPES</a>
                             <a href="#Blog">BLOG</a>
                             <a href="">JOIN</a>
-                            <a href="">REGISTER</a>
+                            <a href="/Cadastro">REGISTER</a>
                         </div>
                     ) : (
                         <div>
                             <button
                                 className="btn_Menu"
                                 onClick={() => this.abrirMenu()}
+
                             >
                                 <spam>=</spam>
                             </button>
@@ -131,7 +132,7 @@ class Home extends Component {
                                     <a href="">HEALTHY RECIPES</a>
                                     <a href="#Blog">BLOG</a>
                                     <a href="">JOIN</a>
-                                    <a href="">REGISTER</a>
+                                    <a href="/Cadastro">REGISTER</a>
                                 </div>
                             ) : (
                                 <div></div>
@@ -153,7 +154,9 @@ class Home extends Component {
                                 onChange={this.atualizaEstado.bind(this)}
                             />
 
-                            <button className="Btn_FormHeaderHome">
+                            <button className="Btn_FormHeaderHome"
+                                type="button"
+                            >
                                 <img src={Lupa} height="20" />
                             </button>
                         </form>
@@ -292,7 +295,9 @@ class Home extends Component {
                                 placeholder="Search healthy recipes"
                             />
 
-                            <button className="Btn_FormHeaderHome">
+                            <button className="Btn_FormHeaderHome"
+                                type="button"
+                            >
                                 <img src={Lupa} height="20" />
                             </button>
                         </form>

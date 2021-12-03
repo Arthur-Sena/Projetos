@@ -237,33 +237,41 @@ nav a:hover {
     flex-direction: row;
     margin-top: 3vh;
     padding: 0px 7.5%;
-    /* overflow-x: scroll; */
+    height: 340px;
 }
 
 .Card_BlogHome{
-    width: 40%;
-    min-height: 70%;
+    min-width: 270px;
+    width: 270px;
+    min-height: 340px;
+    height: 340px;
     margin-right: 20px;
     overflow: hidden;
     background-color:white;
     box-shadow      : 3px 3px 4px 2px rgba(90, 90, 90, 0.1);
+
 }
 
 .img_CardBlogHome{
     width: 100%;
+    max-height: 210px;
 }
 
 .Card_DescriptionBlog{
     text-align: left;
     padding: 10px 15px;
     color: var(--text-color1);
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .SubDiv_CardDescriptionBlog{
     margin-top: 2vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
 }
 
 .SubDiv_CardDescriptionBlog>img{
@@ -271,6 +279,7 @@ nav a:hover {
     width: 40px;
     border-radius: 50%;
     overflow: hidden;
+    margin-right: 15px;
 }
 
 .SubDiv_CardDescriptionBlog{
@@ -282,7 +291,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 90vh;
+    height: 100%;
 }
 
 /* ============================= */
@@ -363,6 +372,19 @@ nav a:hover {
 }
 
 @media(max-width:700px) {
+    .Blog_CardsBodyHome{
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .Blog_CardsBodyHome::-webkit-scrollbar{
+        height: 6px;
+        padding-top: 8px;
+    }
+    
+    .Blog_CardsBodyHome::-webkit-scrollbar-thumb{
+        background-color: var(--text-color1);
+
+    }
     /* ======HEADER====== */
     .h1_FormHeaderHome{
         font-size: 22px;
@@ -394,7 +416,6 @@ nav a:hover {
         flex-wrap:unset;
         flex-direction: column;
         justify-content: space-around;
-
     }
 
     .Card_BodyHome{
@@ -458,6 +479,18 @@ nav a:hover {
         border-style: solid;
         border-color: white;
     }
+
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        padding: 5px 10px
+    }
+
+    .Footer>div{
+    width: 100%
+    }
+    
 }   
 
 @media(max-width:420px) {
@@ -499,5 +532,27 @@ nav a:hover {
         padding-left  : 2.5%;
         padding-right  : 2.5%;
         max-width      : 45%;
+    }
+
+    .FooterBody_Home{
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+
+    .FooterBody_Home>img{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        align-self: flex-start;
+    }
+
+    .FooterBody_Home>div{
+        padding: 0% 5%;
+    }
+
+    .DivForm_HeaderHome{
+        padding: 15px 0px;
+        margin-bottom: 3vh;
     }
 }
