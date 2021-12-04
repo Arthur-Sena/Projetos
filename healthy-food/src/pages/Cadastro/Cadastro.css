@@ -8,5 +8,51 @@
 }
 
 .Div_Cadastro{
-    color: var(--verde-claro)
+    background-color: white;
+    color: var(--verde-claro);
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 2vh 2vw; 
+    width: 50%;   
+}
+.Div_Cadastro>h2{
+    text-align: center;
+}
+.meu-box{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1vh 0px;
+}
+
+.btn_Cadastro{
+    width: 75%; 
+    margin: 0px 12.5%;   
+    height: 3vh;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--verde-claro);
+}
+
+.MenssagemDeConfirmacao{
+    color: green;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.MensagemDeErro{
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media(max-width:549px) {
+
+    .Div_Cadastro{
+        width: 80%;
+    }
+
 }
